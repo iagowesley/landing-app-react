@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+    gap: 150px;
+}
+
+@media (max-width:1000px) {
+    .invisible {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+}

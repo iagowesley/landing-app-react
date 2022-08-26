@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Zilla+Slab:ital,wght@1,600&display=swap');
+.header {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    gap: 350px;
+    align-items: center;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    background-color: #257cce;
+}
+
+.fale-conosco {
+    font-size: 20px;
+    text-decoration: none;
+    color: #049193;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+ 
+.lista {
+    color: white;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    gap: 30px;
+}
+
+.item {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .header {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        gap: 40px;
+    }
+
+    .fale-conosco {
+        font-size: 20px;
+        margin-top: -18px;
+        width: 100%;
+        margin-right: 35px;
+    }
+}
+
+.btn-sobre {
+    background-color: #257cce;
+    font-size: 25px;
+    border: none;
+    box-shadow: none;
+
+}
+
+.btn-sobre:hover {
+    box-shadow: none;
+}
+
+.btn-sobre:active {
+    box-shadow: none;
+}
+
+.btn-sobre:focus {
+    box-shadow: none;
+
+}
+
+.sub-menu {
+    background-color: #a3c4e4;
+    opacity: 0.9;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.item-um,
+.item-dois {
+    font-size: 18px;
+    color: #000;
+}
+
+.item-um:hover,
+.item-dois:hover {
+    color: #257cce;
+}
+
+
+
