@@ -6,21 +6,22 @@ import Dropdown from 'react-bootstrap/Dropdown';
 export default function Menu() {
   return (
     <div className='header'>
-        <nav className='navbar'>
-            <ul className='lista'>
-                <li className='item'>MEUAPP</li>
-                <Dropdown className='no-focus-dropdown-button'>
-                <Dropdown.Toggle className='btn-sobre no-focus-dropdown-button fw-bold'>
-                  Sobre
-                </Dropdown.Toggle>
-                <Dropdown.Menu className='sub-menu no-focus-dropdown-button'>
-                  <Dropdown.Item href="#/action-1" className='item-um'>A empresa</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2" className='item-dois'>Localização</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>            
-              </ul>
-        </nav>
-        <Modal/>
+         <nav class="navbar">
+            <div class="navbar-container container">
+            <input type="checkbox" name="" id=""/>
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          <h1 class="logo">MeuApp</h1>
+          </div>
+         </nav>
         
     </div>
 
